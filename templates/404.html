@@ -1,29 +1,29 @@
 {% extends "base.html" %}
 {% block head %}
-<title> Brasilis Club </title>
-<meta name="description" content="Brasilis Club is a brazilian research-focused multipurpose collective." /> 
+<title>Not found | Brasilis Club</title>
+<meta name="description" content="Não foi possível encontrar a página solicitada." /> 
 <link rel="stylesheet" href="{{ get_url(path='home.css', trailing_slash=false) | safe }}"  /> 
 {% endblock head %}
 
 {% block content %}
-<main class="page__container" aria-label="Heading section">
-  <section class="content__container">
-    <div class="heading__container">
-      <h1 class="heading__title"><span>404:</span> Not found</h1>
-      <p class="heading__subtitle">
-        Não foi possível encontrar a página solicitada.
-        Pode ser que não esteja mais disponível. 
-        Caso esteja perdido, você pode acessar os seguintes links:
-      </p>
-    </div>
-    <div class="navigation__list" aria-label="Lista de navegação">
-      <a href="/" class="navigation__item" aria-label="Acesse a página inicial">Home</a>
-      <a href="/blog" class="navigation__item" aria-label="Acesse o nosso blog">Blog</a>
-      <a href="/portfolio" class="navigation__item" aria-label="Acesse o nosso portfolio">Portfolio</a>
-      <a href="mailto:ola@brasilis.club" class="navigation__item" aria-label="Entre em contato via e-mail">Contato</a>
-      <span class="navigation__item-arrow">-></span>
-      <a href="mailto:ola@brasilis.club" class="navigation__item-mail" aria-label="Entre em contato via e-mail: ola@brasilis.club">ola@brasilis.club</a>
-    </div>
-  </section>
+<main aria-label="Heading section">
+    <section class="align-center">
+        <header>
+            <h1 class="heading--title"><span>404:</span> Not found</h1>
+            <p class="heading--subtitle">
+            Não foi possível encontrar a página solicitada.
+            Pode ser que não esteja mais disponível. 
+            Caso esteja perdido, você pode acessar os seguintes links:
+            </p>
+            <nav aria-label="Lista de navegação">
+                <a href="/" class="nav--item" aria-label="Acesse a página inicial">Início</a>
+                <a href="/blog" class="nav--item" aria-label="Acesse o nosso blog">Blog</a>
+                <a href="/portfolio" class="nav--item" aria-label="Acesse o nosso portfolio">Portfolio</a>
+                <a href="mailto:ola@brasilis.club" class="nav--item" aria-label="Entre em contato via e-mail">Contato</a>
+                <span class="nav--item-arrow">-></span>
+                <a href="mailto:ola@brasilis.club" class="nav--item-email" aria-label="Entre em contato via e-mail: ola@brasilis.club">ola@brasilis.club</a>
+            </nav>
+        </header>
+    </section>
 </main>
 {% endblock content %}
