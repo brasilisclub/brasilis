@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="https://copan.brasilis.club/colors.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://copan.brasilis.club/form.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://copan.brasilis.club/media.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://copan.brasilis.club/layout.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://copan.brasilis.club/text.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="{{ get_url(path='colors.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
+        <link rel="stylesheet" href="{{ get_url(path='base.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
         <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe }}" crossorigin="anonymous" />
         <link rel="alternate" type="application/rss+xml" title="Correio Lusófono" href="{{ get_url(path="blog/rss.xml", trailing_slash=false) }}">
         {% block head %}{% endblock head %}
