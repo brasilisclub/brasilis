@@ -1,3 +1,7 @@
+.column-center {
+  align-items: flex-start;
+}
+
 .heading--title {
   font-weight: 400;
   margin-bottom: 1rem;
@@ -20,4 +24,30 @@
   @extend .nav--item;
   font-style: italic;
   color: var(--label-accent-default);
+}
+
+
+@media screen and (max-width: 768px) {
+  .column-center {
+    justify-content: space-between;
+  }
+
+  .heading--title {
+    text-align: justify;
+  }
+
+  nav {
+    gap: unset;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav--item {
+    text-decoration: underline;
+  }
+
+  .nav--item-arrow, .nav--item-email {
+    display: none;
+  }
+
 }
