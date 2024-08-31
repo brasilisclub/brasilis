@@ -3,3 +3,4 @@ Disallow: /blog
 Disallow: /liricos
 Disallow: /galeria
 Disallow: /portfolio
+Sitemap: https://brasilis.club/sitemap.xml

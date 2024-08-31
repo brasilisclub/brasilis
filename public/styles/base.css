@@ -1,0 +1,9 @@
+.button-accent:visited {
+    color: var(--label-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+    .button-accent {
+        color: var(--label-secondary);
+    }
+}
