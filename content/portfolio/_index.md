@@ -1,6 +1,0 @@
-+++
-title = "Portfolio"
-sort_by = "date"
-template = "pages/portfolio.html"
-page_template = "pages/project.html"
-+++

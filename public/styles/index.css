@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  
+  display: grid;
+}
+
+.headline {
+  margin-top: auto;
+    grid-row: 3fr;
+}
+
+.headline-title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: var(--font-size-128);
+  line-height: var(--line-height-105);
+  letter-spacing: var(--letter-spacing);
+}
+
+footer {
+  display: flex;
+  grid-row: 2fr;
+  justify-content: space-between;
+}
+
+.footer-text {
+  width: 100%;
+  margin-top: auto;
+  font-weight: bold;
+  text-align: center;
+  font-family: var(--font-serif);
+}
+
+@media screen and (max-width: 768px) {
+  .headline-title {
+    font-size: var(--font-size-80);
+  } 
+}
