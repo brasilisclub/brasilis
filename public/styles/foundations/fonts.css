@@ -1,5 +1,5 @@
 :root {
-  --font-serif: "Junicode", ui-serif;
+  --font-serif: Helvetica, ui-sans-serif;
   --font-sans-serif: Helvetica, ui-sans-serif;
   --font-size-128: 8rem;
   --font-size-80: 5rem;
@@ -38,6 +38,11 @@
     --font-size-14: 0.75rem;
   }
 }
+
+body {
+  font-family: var(--font-serif);
+}
+
 h1,
 h2,
 h3,
@@ -50,18 +55,7 @@ h6 {
 p,
 span,
 a {
-  font-size: var(--font-size-20);
   font-family: var(--font-sans-serif);
-}
-
-a {
-  text-decoration: none;
-  color: var(--label-accent);
-}
-
-a:hover,
-a:focus {
-  color: var(--label-accent-hover);
 }
 
 @font-face {

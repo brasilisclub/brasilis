@@ -8,10 +8,10 @@
 {% block content %}
 <main aria-label="Secção de Introdução">
     <section class="headline">
-        <h1 class="headline-title">Brasil(is) Club</h1>
+	{{ page.content | safe }}	
     </section>
     <footer>
-	<p class="footer-text">Mais informações em breve</p>
+	<a href="mailto:contato@brasilis.club">Entre em contato</a>
     </footer>
 </main>
 {% endblock content %}

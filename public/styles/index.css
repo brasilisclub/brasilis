@@ -1,25 +1,12 @@
-html, body {
-  height: 100%;
-}
-
 main {
-  height: 100%;
-  
+  max-width: 50rem;
+  margin: auto;
   display: grid;
 }
 
 .headline {
   margin-top: auto;
     grid-row: 3fr;
-}
-
-.headline-title {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-size: var(--font-size-128);
-  line-height: var(--line-height-105);
-  letter-spacing: var(--letter-spacing);
 }
 
 footer {
