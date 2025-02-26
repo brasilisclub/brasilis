@@ -57,11 +57,22 @@ O Brasilis não é apenas um coletivo de tecnologia. É uma nova maneira de pens
 
 *ZEN DO BRASILIS*
 
-Reinvente o processo, não o produto.  
-O trabalho importa mais que a ferramenta.  
-A comunidade importa mais que o código.  
-Existe uma forma melhor.  
+Colaboração é melhor que competição.  
+Simplicidade é melhor que complexidade.  
+Transparência é melhor que opacidade.  
 
-**Transforme sua carreira enquanto transforma o mundo.**
+Pessoas importam mais que processos.  
+Comunidade importa mais que código.  
 
-*Brasilis. Pense diferente. Crie juntos.*
+Inovação nasce da diversidade.  
+Criatividade floresce na liberdade.  
+
+Tecnologia deve empoderar, nunca subjugar.  
+O trabalho deve servir à vida, não o contrário.  
+Decisões distribuídas são mais fortes que controle centralizado.  
+
+Menos hierarquia, mais harmonia.  
+Sustentabilidade não é opcional.  
+
+Existe uma forma melhor — encontre-a juntos.  
+*Brasilis: pense diferente, crie juntos.*  
