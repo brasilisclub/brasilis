@@ -9,7 +9,7 @@ template = "index.html"
 
 Não somos uma empresa. Somos um movimento. Um coletivo formado por analistas, projetistas, desenvolvedores e entusiastas, unidos pela convicção de que podemos fazer as coisas de forma diferente.
 
-Rejeitamos as hierarquias rígidas que sufocam a criatividade. Eliminamos os silos que fragmentam o talento. Derrubamos as barreiras entre decisão e execução. Removemos estas complexidades para focar no que realmente importa: pessoas extraordinárias criando soluções extraordinárias juntas.
+Rejeitamos as hierarquias rígidas que sufocam a criatividade. Eliminamos os silos que fragmentam o talento. Derrubamos as barreiras entre decisão e execução. Removemos estas complexidades para focar no que realmente importa: pessoas comuns criando soluções extraordinárias juntas.
 
 <br>
 **NOSSOS PRINCÍPIOS**
